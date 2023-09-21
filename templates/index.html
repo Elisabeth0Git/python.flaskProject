@@ -1,39 +1,102 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Личный сайт</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Blog</title>
+    <style>
+        /* Reset some default styles for consistency */
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-post {
+            margin-bottom: 30px;
+        }
+
+        .blog-post h2 {
+            font-size: 24px;
+        }
+
+        .blog-post p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Личный сайт</h1>
+    <header>
+        <h1>Celestial Crest</h1>
+    </header>
+
     <nav>
-      <a href="about"> О себе </a>
-      <a href="#"> Контакты </a>
+        <a href="/">Home</a>
+        <a href="about">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
     </nav>
-  </header>
-  <main>
-    <section>
-      <h2>Главная</h2>
-      <p>Это моя главная страница. Здесь я рассказываю о себе и своих увлечениях.</p>
-    </section>
-    <section>
-      <h2>О себе</h2>
-    </section>
-    <section>
-      <h2>Контакты</h2>
-      <p>Мои контакты:
-        <ul>
-          <li>Email: [Gmail]</li>
-          <li>Телефон: [телефон]</li>
-          <li>Социальные сети: [ссылки]</li>
-        </ul>
-      </p>
-    </section>
-  </main>
-  <footer>
-    &copy; [00.00.0000] [Альберт]
-  </footer>
+
+    <div class="container">
+        <div class="blog-post">
+            <h2>Albert Kirakosyan</h2>
+            <p>We Are The Future</p>
+        </div>
+
+        <div class="blog-post">
+            <h2>My Blog</h2>
+            <p>This site made for present my ideas</p>
+        </div>
+
+        <!-- Add more blog posts here -->
+    </div>
+
+    <footer>
+        &copy; 2023 CC. All rights reserved.
+    </footer>
 </body>
 </html>
